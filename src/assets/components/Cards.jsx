@@ -1,4 +1,4 @@
-import {useState, useEffect, use} from 'react';
+import {useState, useEffect} from 'react';
 
 export default function Cards(){
     const [emojis, setEmojis] = useState([]);
@@ -19,7 +19,7 @@ export default function Cards(){
                 const sliced = data.slice(0, 144)
                 
                 newEmojis(sliced);
-                setLoading(false)
+               FI
             } catch(error) {
                 console.error("ERRO :", error);
             } finally {
