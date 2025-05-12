@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&family=Pixelify+Sans:wght@400..700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Nova Mono", monospace;
+}
+body{
+    background-color: #7d6fa6;
+    margin:2px;
+    color:#fff;
+}
+body, header, .infos{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:10px;
+    text-align: center;
+}
+.infos{
+    flex-direction: row !important;
+    gap:10px;
+}
+h1{
+    font-size:3rem;
+    font-family: "Pixelify Sans", sans-serif;
+    margin:20px 0px;
+}
+p{
+    font-size:1.1rem;
+}
+i, span{
+    font-size: 1.6rem;
+}
+.score{
+    color:rgb(255, 255, 8);
+}
+.bestScore{
+    color:rgb(108, 45, 255);
+}
+.cards-memory {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.cards-emojis {
+    width: 100%;
+    max-width: 160px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    box-shadow: 0px 0px 15px -6px #000;
+    cursor: pointer;
+    background: #dfdfdf;
+  
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: transform 400ms ease-in-out;
+}
+.cards-emojis.flipped{
+    transform: rotateY(-180deg);
+}
+.card-inner {
+    position: relative;
+    transform-style: preserve-3d;
+}
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5.5rem;
+}
+footer{
+    position: absolute;
+    bottom:10px;
+    left:10%;
+    right:10%;
+}
+footer p{
+    text-align: center;
+}
+@media(max-height:710px){
+    footer{
+        bottom:0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left:0;
+        right:0;
+        margin-top:20px;
+    }
+}
