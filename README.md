@@ -4,6 +4,8 @@
 </div>
 
 A small memory card game buid with React and Vite, developed as part of The Odin Project course [The Odin Project](https://www.theodinproject.com/), Using data from EmojiHub API [EmojiHub](https://github.com/cheatsnake/emojihub) to practice basic hooks, integration with Application Programming Interface and React's state logic. 
+<br><br>
+**Site**: https://react-learning-project-cv-applicati.vercel.app/
 
 ## Features
 
