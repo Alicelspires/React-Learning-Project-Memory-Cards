@@ -7,6 +7,8 @@ A small memory card game buid with React and Vite, developed as part of The Odin
 <br><br>
 **Site**: [https://react-learning-project-cv-applicati.vercel.app/](https://react-learning-project-memory-card.vercel.app/)
 
+![The Odin Project](https://img.shields.io/badge/The%20Odin%20Project-e3b261?style=for-the-badge&logo=theodinproject&logoColor=000000&link=https%3A%2F%2Fwww.theodinproject.com%2Fpaths%2Ffull-stack-javascript%2Fcourses%2Fnodejs)
+
 ## Features
 
 * Random generation of 6 emojis each round.
@@ -62,4 +64,5 @@ npm run dev
 ![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=Alicelspires.React-Learning-Project-Memory-Cards&left_color=grey&right_color=black&left_text=Visitors)
 
 </div> 
+
 
