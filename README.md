@@ -5,7 +5,7 @@
 
 A small memory card game buid with React and Vite, developed as part of The Odin Project course [The Odin Project](https://www.theodinproject.com/), Using data from EmojiHub API [EmojiHub](https://github.com/cheatsnake/emojihub) to practice basic hooks, integration with Application Programming Interface and React's state logic. 
 <br><br>
-**Site**: https://react-learning-project-cv-applicati.vercel.app/
+**Site**: [https://react-learning-project-cv-applicati.vercel.app/](https://react-learning-project-memory-card.vercel.app/)
 
 ## Features
 
@@ -62,3 +62,4 @@ npm run dev
 ![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=Alicelspires.React-Learning-Project-Memory-Cards&left_color=grey&right_color=black&left_text=Visitors)
 
 </div> 
+
